@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /*  */
+    background-image: url(Page1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ladang {
+    width: 150vw;
+    position: absolute;
+    top: 75%;
+    left: -25%;
+    z-index: 2;
+}
+
+.masjid {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+}
+
+.kiri {
+    left: -80%;
+}
+
+.kanan {
+    right: -80%;
+}
