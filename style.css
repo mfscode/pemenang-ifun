@@ -70,3 +70,370 @@ div#mascot:hover {
     background-color: #0000007b;
     cursor: pointer;
 }
+
+#page2 {
+    display: none;
+}
+
+#page2.display {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#cabang {
+    width: 60%;
+    min-height: 20%;
+    margin: 20vh auto 0;
+    padding: .5rem;
+    /*  */
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    /*  */
+    background-color: #50505074;
+    /*  */
+    z-index: 4;
+}
+
+.cards {
+    width: 156px;
+    height: 156px;
+    background-color: #00000014;
+    margin: .5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 100ms;
+    position: relative;
+    /*  */
+    display: flex;
+    justify-content: center;
+}
+
+.cards:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 10px 0 #00000080;
+}
+
+.akustik {
+    background-image: url(./images/akustik.png);
+}
+
+.akustik::after {
+    width: 100%;
+    height: 20%;
+    content: "Akustik";
+    background-color: black;
+    color: white;
+    opacity: .4;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    position: absolute;
+    bottom: 0px;
+    /*  */
+    font-family: Arial, Helvetica, sans-serif;
+    /*  */
+    transition: 150ms;
+}
+
+.akustik:hover {
+    cursor: pointer;
+}
+
+.akustik:hover::after {
+    opacity: .7;
+}
+
+.cci {
+    background-image: url(./images/cci.png);
+}
+
+.cci::after {
+    width: 100%;
+    height: 20%;
+    content: "Cerdas Cermat";
+    background-color: black;
+    color: white;
+    opacity: .4;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    position: absolute;
+    bottom: 0px;
+    /*  */
+    font-family: Arial, Helvetica, sans-serif;
+    /*  */
+    transition: 150ms;
+}
+
+.cci:hover {
+    cursor: pointer;
+}
+
+.cci:hover::after {
+    opacity: .7;
+}
+
+.cipcer {
+    background-image: url(./images/cipcer.png);
+}
+
+.cipcer::after {
+    width: 100%;
+    height: 20%;
+    content: "Cipta Cerita";
+    background-color: black;
+    color: white;
+    opacity: .4;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    position: absolute;
+    bottom: 0px;
+    /*  */
+    font-family: Arial, Helvetica, sans-serif;
+    /*  */
+    transition: 150ms;
+}
+
+.cipcer:hover {
+    cursor: pointer;
+}
+
+.cipcer:hover::after {
+    opacity: .7;
+}
+
+.dai {
+    background-image: url(./images/dai.png);
+}
+
+.dai::after {
+    width: 100%;
+    height: 20%;
+    content: "Dai Muda";
+    background-color: black;
+    color: white;
+    opacity: .4;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    position: absolute;
+    bottom: 0px;
+    /*  */
+    font-family: Arial, Helvetica, sans-serif;
+    /*  */
+    transition: 150ms;
+}
+
+.dai:hover {
+    cursor: pointer;
+}
+
+.dai:hover::after {
+    opacity: .7;
+}
+
+.fashion {
+    background-image: url(./images/fashion.png);
+}
+
+.fashion::after {
+    width: 100%;
+    height: 20%;
+    content: "Fashion Islami";
+    background-color: black;
+    color: white;
+    opacity: .4;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    position: absolute;
+    bottom: 0px;
+    /*  */
+    font-family: Arial, Helvetica, sans-serif;
+    /*  */
+    transition: 150ms;
+}
+
+.fashion:hover {
+    cursor: pointer;
+}
+
+.fashion:hover::after {
+    opacity: .7;
+}
+
+.kaligrafi {
+    background-image: url(./images/kaligrafi.png);
+}
+
+.kaligrafi::after {
+    width: 100%;
+    height: 20%;
+    content: "Kaligrafi";
+    background-color: black;
+    color: white;
+    opacity: .4;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    position: absolute;
+    bottom: 0px;
+    /*  */
+    font-family: Arial, Helvetica, sans-serif;
+    /*  */
+    transition: 150ms;
+}
+
+.kaligrafi:hover {
+    cursor: pointer;
+}
+
+.kaligrafi:hover::after {
+    opacity: .7;
+}
+
+.mhq {
+    background-image: url(./images/mhq.png);
+}
+
+.mhq::after {
+    width: 100%;
+    height: 20%;
+    content: "MHQ";
+    background-color: black;
+    color: white;
+    opacity: .4;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    position: absolute;
+    bottom: 0px;
+    /*  */
+    font-family: Arial, Helvetica, sans-serif;
+    /*  */
+    transition: 150ms;
+}
+
+.mhq:hover {
+    cursor: pointer;
+}
+
+.mhq:hover::after {
+    opacity: .7;
+}
+
+.mtq {
+    background-image: url(./images/mtq.png);
+}
+
+.mtq::after {
+    width: 100%;
+    height: 20%;
+    content: "MTQ";
+    background-color: black;
+    color: white;
+    opacity: .4;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    position: absolute;
+    bottom: 0px;
+    /*  */
+    font-family: Arial, Helvetica, sans-serif;
+    /*  */
+    transition: 150ms;
+}
+
+.mtq:hover {
+    cursor: pointer;
+}
+
+.mtq:hover::after {
+    opacity: .7;
+}
+
+.poster {
+    background-image: url(./images/poster.png);
+}
+
+.poster::after {
+    width: 100%;
+    height: 20%;
+    content: "Poster Digital";
+    background-color: black;
+    color: white;
+    opacity: .4;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    position: absolute;
+    bottom: 0px;
+    /*  */
+    font-family: Arial, Helvetica, sans-serif;
+    /*  */
+    transition: 150ms;
+}
+
+.poster:hover {
+    cursor: pointer;
+}
+
+.poster:hover::after {
+    opacity: .7;
+}
+
+.puisi {
+    background-image: url(./images/puisi.png);
+}
+
+.puisi::after {
+    width: 100%;
+    height: 20%;
+    content: "Puisi";
+    background-color: black;
+    color: white;
+    opacity: .4;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    position: absolute;
+    bottom: 0px;
+    /*  */
+    font-family: Arial, Helvetica, sans-serif;
+    /*  */
+    transition: 150ms;
+}
+
+.puisi:hover {
+    cursor: pointer;
+}
+
+.puisi:hover::after {
+    opacity: .7;
+}
