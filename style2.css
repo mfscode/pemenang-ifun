@@ -9,7 +9,7 @@ body {
     height: 100vh;
     overflow: hidden;
     /*  */
-    background-image: url(Page2.png);
+    background-image: url(./images/Page2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -19,7 +19,7 @@ body {
     position: absolute;
     top: 75%;
     left: -25%;
-    z-index: 2;
+    z-index: 3;
 }
 
 .masjid {

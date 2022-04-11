@@ -9,9 +9,28 @@ body {
     height: 100vh;
     overflow: hidden;
     /*  */
-    background-image: url(Page1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #d46a37;
+    /*  */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#mascot,
+#header1 {
+    display: block;
+    transition: 500ms;
+}
+
+#mascot.hidden,
+#header1.hidden {
+    display: none;
+}
+
+h1 {
+    margin-top: 4rem;
+    font-size: 3.6rem;
 }
 
 #ladang {
@@ -26,6 +45,7 @@ body {
     position: absolute;
     width: 100vw;
     height: auto;
+    bottom: 4rem;
 }
 
 .kiri {
@@ -34,4 +54,19 @@ body {
 
 .kanan {
     right: -80%;
+}
+
+div#mascot {
+    width: 5rem;
+    height: 8rem;
+    margin: 30vh auto 0;
+    /*  */
+    background-color: #00000014;
+    /*  */
+    transition: 300ms;
+}
+
+div#mascot:hover {
+    background-color: #0000007b;
+    cursor: pointer;
 }
