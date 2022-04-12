@@ -439,20 +439,47 @@ div#mascot:hover {
 }
 
 .board {
-    width: 200vw;
-    min-height: 200vh;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 2.5rem;
     /*  */
     background-color: #373737a0;
-    filter: blur(24px);
+    /* filter: blur(24px); */
     /*  */
     position: fixed;
-    left: -50vw;
-    top: -50vh;
+    left: 0;
+    top: 0;
     z-index: 5;
     opacity: 0;
+    /*  */
     display: none;
 }
 
 .board#akustik {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     opacity: 1;
+}
+
+div#mascot2 {
+    width: 100px;
+    min-height: 100px;
+    background-color: aquamarine;
+}
+
+section#data {
+    background-color: bisque;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    min-height: 90vh;
+}
+
+section#data img {
+    width: 212px;
+    height: 212px;
 }
