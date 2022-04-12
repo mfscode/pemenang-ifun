@@ -6,15 +6,15 @@ const backButton = document.getElementById("back")
 const cards = document.getElementsByClassName("cards")
 const overlays = {
     akustik: document.getElementById('akustik'),
-    cci: document.getElementById('akustik'),
-    cipcer: document.getElementById('akustik'),
-    dai: document.getElementById('akustik'),
-    fashion: document.getElementById('akustik'),
-    kaligrafi: document.getElementById('akustik'),
-    mhq: document.getElementById('akustik'),
-    mtq: document.getElementById('akustik'),
-    poster: document.getElementById('akustik'),
-    puisi: document.getElementById('akustik')
+    cci: document.getElementById('cci'),
+    cipcer: document.getElementById('cipcer'),
+    dai: document.getElementById('dai'),
+    fashion: document.getElementById('fashion'),
+    kaligrafi: document.getElementById('kaligrafi'),
+    mhq: document.getElementById('mhq'),
+    mtq: document.getElementById('mtq'),
+    poster: document.getElementById('poster'),
+    puisi: document.getElementById('puisi')
 }
 
 cta.addEventListener("click", () => {
@@ -31,13 +31,21 @@ function loaded() {
 }
 
 function clicked() {
-    page2.classList.add('clicked');
-    backButton.classList.add('appear');
-    overlays.akustik.style.display = "flex"
+    page2.classList.toggle('clicked');
+    backButton.style.opacity = "1"
 }
 
 function back() {
-    page2.classList.remove('clicked');
+    page2.classList.toggle('clicked');
     overlays.akustik.style.display = "none";
-    backButton.classList.remove('appear')
+    overlays.cci.style.display = "none";
+    overlays.cipcer.style.display = "none";
+    overlays.dai.style.display = "none";
+    overlays.fashion.style.display = "none";
+    overlays.kaligrafi.style.display = "none";
+    overlays.mhq.style.display = "none";
+    overlays.mtq.style.display = "none";
+    overlays.poster.style.display = "none";
+    overlays.puisi.style.display = "none";
+    backButton.style.opacity = "0"
 }

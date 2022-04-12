@@ -398,7 +398,16 @@ div#mascot:hover {
     display: none;
 }
 
-.board#akustik.displayed {
+.board#akustik.displayed,
+.board#cci.displayed,
+.board#cipcer.displayed,
+.board#dai.displayed,
+.board#fashion.displayed,
+.board#kaligrafi.displayed,
+.board#mhq.displayed,
+.board#mtq.displayed,
+.board#poster.displayed,
+.board#puisi.displayed {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -451,10 +460,6 @@ section#data img {
 }
 
 button#back {
-    opacity: 0;
-}
-
-button#back.appear {
     position: fixed;
     top: 2rem;
     left: 2rem;
