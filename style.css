@@ -38,7 +38,7 @@ h1 {
     position: absolute;
     top: 75%;
     left: -25%;
-    z-index: 2;
+    z-index: 1;
 }
 
 .masjid {
@@ -387,7 +387,7 @@ div#mascot:hover {
     min-height: 100vh;
     padding: 2.5rem;
     /*  */
-    background-color: #373737a0;
+    background-color: transparent;
     /*  */
     position: fixed;
     left: 0;
@@ -470,8 +470,6 @@ button#back {
     color: rgba(255, 255, 255, 0.675);
     opacity: 1;
     /*  */
-    font-size: 3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
     /*  */
     z-index: 7;
