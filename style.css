@@ -84,6 +84,21 @@ div#mascot:hover {
     justify-content: flex-start;
 }
 
+#page2.display.clicked {
+    filter: blur(14px);
+    backdrop-filter: blur(14px);
+}
+
+#page2.display.clicked #cabang .cards:hover {
+    transform: translateY(0);
+    box-shadow: none;
+    cursor: default;
+}
+
+#page2.display.clicked #cabang .cards:hover::after {
+    opacity: .4;
+}
+
 #cabang {
     width: 60%;
     min-height: 20%;
@@ -116,6 +131,15 @@ div#mascot:hover {
 .cards:hover {
     transform: translateY(-10px);
     box-shadow: 0px 10px 10px 0 #00000080;
+    cursor: pointer;
+}
+
+.cards:hover::after {
+    opacity: .7;
+}
+
+.cards.clicked {
+    transform: translateY(-2px);
 }
 
 .akustik {
@@ -142,14 +166,6 @@ div#mascot:hover {
     transition: 150ms;
 }
 
-.akustik:hover {
-    cursor: pointer;
-}
-
-.akustik:hover::after {
-    opacity: .7;
-}
-
 .cci {
     background-image: url(./images/cci.png);
 }
@@ -172,14 +188,6 @@ div#mascot:hover {
     font-family: Arial, Helvetica, sans-serif;
     /*  */
     transition: 150ms;
-}
-
-.cci:hover {
-    cursor: pointer;
-}
-
-.cci:hover::after {
-    opacity: .7;
 }
 
 .cipcer {
@@ -206,14 +214,6 @@ div#mascot:hover {
     transition: 150ms;
 }
 
-.cipcer:hover {
-    cursor: pointer;
-}
-
-.cipcer:hover::after {
-    opacity: .7;
-}
-
 .dai {
     background-image: url(./images/dai.png);
 }
@@ -236,14 +236,6 @@ div#mascot:hover {
     font-family: Arial, Helvetica, sans-serif;
     /*  */
     transition: 150ms;
-}
-
-.dai:hover {
-    cursor: pointer;
-}
-
-.dai:hover::after {
-    opacity: .7;
 }
 
 .fashion {
@@ -270,14 +262,6 @@ div#mascot:hover {
     transition: 150ms;
 }
 
-.fashion:hover {
-    cursor: pointer;
-}
-
-.fashion:hover::after {
-    opacity: .7;
-}
-
 .kaligrafi {
     background-image: url(./images/kaligrafi.png);
 }
@@ -300,14 +284,6 @@ div#mascot:hover {
     font-family: Arial, Helvetica, sans-serif;
     /*  */
     transition: 150ms;
-}
-
-.kaligrafi:hover {
-    cursor: pointer;
-}
-
-.kaligrafi:hover::after {
-    opacity: .7;
 }
 
 .mhq {
@@ -334,14 +310,6 @@ div#mascot:hover {
     transition: 150ms;
 }
 
-.mhq:hover {
-    cursor: pointer;
-}
-
-.mhq:hover::after {
-    opacity: .7;
-}
-
 .mtq {
     background-image: url(./images/mtq.png);
 }
@@ -364,14 +332,6 @@ div#mascot:hover {
     font-family: Arial, Helvetica, sans-serif;
     /*  */
     transition: 150ms;
-}
-
-.mtq:hover {
-    cursor: pointer;
-}
-
-.mtq:hover::after {
-    opacity: .7;
 }
 
 .poster {
@@ -398,14 +358,6 @@ div#mascot:hover {
     transition: 150ms;
 }
 
-.poster:hover {
-    cursor: pointer;
-}
-
-.poster:hover::after {
-    opacity: .7;
-}
-
 .puisi {
     background-image: url(./images/puisi.png);
 }
@@ -430,14 +382,6 @@ div#mascot:hover {
     transition: 150ms;
 }
 
-.puisi:hover {
-    cursor: pointer;
-}
-
-.puisi:hover::after {
-    opacity: .7;
-}
-
 .board {
     width: 100vw;
     min-height: 100vh;
@@ -460,26 +404,64 @@ div#mascot:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /*  */
     opacity: 1;
+    display: none;
 }
 
 div#mascot2 {
-    width: 100px;
-    min-height: 100px;
+    width: 500px;
+    min-height: 600px;
+    margin: 0 auto;
+    /*  */
     background-color: aquamarine;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section#data {
+    width: 40%;
+    min-height: 90vh;
     background-color: bisque;
+    /*  */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    width: 40%;
-    min-height: 90vh;
+    /*  */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section#data p {
+    margin-top: .7rem;
+    /*  */
+    font-size: .9rem;
 }
 
 section#data img {
     width: 212px;
     height: 212px;
+    margin-bottom: 1rem;
+}
+
+.juara {
+    flex: 1 0 50%;
+}
+
+button#back {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    /*  */
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.675);
+    /*  */
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
 }
