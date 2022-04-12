@@ -388,7 +388,6 @@ div#mascot:hover {
     padding: 2.5rem;
     /*  */
     background-color: #373737a0;
-    /* filter: blur(24px); */
     /*  */
     position: fixed;
     left: 0;
@@ -399,14 +398,14 @@ div#mascot:hover {
     display: none;
 }
 
-.board#akustik {
+.board#akustik.displayed {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     /*  */
     opacity: 1;
-    display: none;
+    /* display: none; */
 }
 
 div#mascot2 {
@@ -452,6 +451,10 @@ section#data img {
 }
 
 button#back {
+    opacity: 0;
+}
+
+button#back.appear {
     position: fixed;
     top: 2rem;
     left: 2rem;
@@ -460,8 +463,12 @@ button#back {
     outline: none;
     border: none;
     color: rgba(255, 255, 255, 0.675);
+    opacity: 1;
     /*  */
     font-size: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
+    /*  */
+    z-index: 7;
+    cursor: pointer;
 }

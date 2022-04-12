@@ -12,10 +12,10 @@
 <body>
     <div id="page1">
         <div class="bg1">
-            <img src="./images/ladang.png" alt="" id="ladang" aria-readonly="true">
+            <img src="./images/ladang.png" alt="" id="ladang">
             <h1 id="header1">Pengumuman Pemenang I Fun 1443 H</h1>
-            <img src="./images/masjidKiri.png" alt="" aria-readonly="true" class="masjid kiri" contenteditable="false">
-            <img src="./images/MasjidKanan.png" alt="" aria-readonly="true" class="masjid kanan" contenteditable="false">
+            <img src="./images/masjidKiri.png" alt="" class="masjid kiri" contenteditable="false">
+            <img src="./images/MasjidKanan.png" alt="" class="masjid kanan" contenteditable="false">
         </div>
 
         <div id="mascot"></div>
@@ -25,60 +25,268 @@
         <h1>Pilih Cabang Lombamu!</h1>
         <div id="cabang">
             <!--  -->
-            <div class="cards akustik" onclick="clicked()"></div>
+            <div class="cards akustik" onclick="clicked();document.getElementById('akustik').classList.add('displayed')"></div>
             <!--  -->
-            <div class="cards cci" onclick="clicked()"></div>
+            <div class="cards cci" onclick="clicked();document.getElementById('cci').classList.add('displayed')"></div>
             <!--  -->
-            <div class="cards cipcer" onclick="clicked()"></div>
+            <div class="cards cipcer" onclick="clicked();document.getElementById('cipcer').classList.add('displayed')"></div>
             <!--  -->
-            <div class="cards dai" onclick="clicked()"></div>
+            <div class="cards dai" onclick="clicked();document.getElementById('dai').classList.add('displayed')"></div>
             <!--  -->
-            <div class="cards fashion" onclick="clicked()"></div>
+            <div class="cards fashion" onclick="clicked();document.getElementById('fashion').classList.add('displayed')"></div>
             <!--  -->
-            <div class="cards kaligrafi" onclick="clicked()"></div>
+            <div class="cards kaligrafi" onclick="clicked();document.getElementById('kaligrafi').classList.add('displayed')"></div>
             <!--  -->
-            <div class="cards mhq" onclick="clicked()"></div>
+            <div class="cards mhq" onclick="clicked();document.getElementById('mhq').classList.add('displayed')"></div>
             <!--  -->
-            <div class="cards mtq" onclick="clicked()"></div>
+            <div class="cards mtq" onclick="clicked();document.getElementById('mtq').classList.add('displayed')"></div>
             <!--  -->
-            <div class="cards poster" onclick="clicked()"></div>
+            <div class="cards poster" onclick="clicked();document.getElementById('poster').classList.add('displayed')"></div>
             <!--  -->
-            <div class="cards puisi" onclick="clicked()"></div>
+            <div class="cards puisi" onclick="clicked();document.getElementById('puisi').classList.add('displayed')"></div>
         </div>
-        <section id="pemenang">
-            <div class="board" id="akustik">
-                <button id="back">
-                    <img src="/images/silang.png" alt="" width="40px" height="40px">
-                </button>
-                <div id="mascot2">bayangin aja ada maskotnya</div>
-                <section id="data">
-                    <div class="juara satu">
-                        <img src="./images/juara1.png" alt="">
-                        <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
-                        <p>MAN Insan Cendekia Serpong</p>
-                    </div>
-                    <div class="juara dua">
-                        <img src="./images/juara2.png" alt="">
-                        <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
-                        <p>sekolah</p>
-                    </div>
-                    <div class="juara tiga">
-                        <img src="./images/juara3.png" alt="">
-                        <h3>#nama</h3>
-                        <p>sekolah</p>
-                    </div>
-                </section>
-            </div>
-            <div class="board" id="cipcer"></div>
-            <div class="board" id="dai"></div>
-            <div class="board" id="fashion"></div>
-            <div class="board" id="kaligrafi"></div>
-            <div class="board" id="mhq"></div>
-            <div class="board" id="mtq"></div>
-            <div class="board" id="poster"></div>
-            <div class="board" id="puisi"></div>
-        </section>
     </div>
+    <section id="pemenang">
+        <div class="board" id="akustik">
+            <button id="back" onclick="back()">
+                <img src="/images/silang.png" alt="" width="40px" height="40px">
+            </button>
+            <div id="mascot2">bayangin aja ada maskotnya</div>
+            <section id="data">
+                <div class="juara satu">
+                    <img src="./images/juara1.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>MAN Insan Cendekia Serpong</p>
+                </div>
+                <div class="juara dua">
+                    <img src="./images/juara2.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>sekolah</p>
+                </div>
+                <div class="juara tiga">
+                    <img src="./images/juara3.png" alt="">
+                    <h3>#nama</h3>
+                    <p>sekolah</p>
+                </div>
+            </section>
+        </div>
+        <!--  -->
+        <div class="board" id="cci">
+            <button id="back" onclick="back()">
+                <img src="/images/silang.png" alt="" width="40px" height="40px">
+            </button>
+            <div id="mascot2">bayangin aja ada maskotnya</div>
+            <section id="data">
+                <div class="juara satu">
+                    <img src="./images/juara1.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>MAN Insan Cendekia Serpong</p>
+                </div>
+                <div class="juara dua">
+                    <img src="./images/juara2.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>sekolah</p>
+                </div>
+                <div class="juara tiga">
+                    <img src="./images/juara3.png" alt="">
+                    <h3>#nama</h3>
+                    <p>sekolah</p>
+                </div>
+            </section>
+        </div>
+        <!--  -->
+        <div class="board" id="cipcer">
+            <button id="back" onclick="back()">
+            <img src="/images/silang.png" alt="" width="40px" height="40px">
+        </button>
+            <div id="mascot2">bayangin aja ada maskotnya</div>
+            <section id="data">
+                <div class="juara satu">
+                    <img src="./images/juara1.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>MAN Insan Cendekia Serpong</p>
+                </div>
+                <div class="juara dua">
+                    <img src="./images/juara2.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>sekolah</p>
+                </div>
+                <div class="juara tiga">
+                    <img src="./images/juara3.png" alt="">
+                    <h3>#nama</h3>
+                    <p>sekolah</p>
+                </div>
+            </section>
+        </div>
+        <!--  -->
+        <div class="board" id="dai">
+            <button id="back" onclick="back()">
+                <img src="/images/silang.png" alt="" width="40px" height="40px">
+            </button>
+            <div id="mascot2">bayangin aja ada maskotnya</div>
+            <section id="data">
+                <div class="juara satu">
+                    <img src="./images/juara1.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>MAN Insan Cendekia Serpong</p>
+                </div>
+                <div class="juara dua">
+                    <img src="./images/juara2.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>sekolah</p>
+                </div>
+                <div class="juara tiga">
+                    <img src="./images/juara3.png" alt="">
+                    <h3>#nama</h3>
+                    <p>sekolah</p>
+                </div>
+            </section>
+        </div>
+        <!--  -->
+        <div class="board" id="fashion">
+            <button id="back" onclick="back()">
+                <img src="/images/silang.png" alt="" width="40px" height="40px">
+            </button>
+            <div id="mascot2">bayangin aja ada maskotnya</div>
+            <section id="data">
+                <div class="juara satu">
+                    <img src="./images/juara1.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>MAN Insan Cendekia Serpong</p>
+                </div>
+                <div class="juara dua">
+                    <img src="./images/juara2.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>sekolah</p>
+                </div>
+                <div class="juara tiga">
+                    <img src="./images/juara3.png" alt="">
+                    <h3>#nama</h3>
+                    <p>sekolah</p>
+                </div>
+            </section>
+        </div>
+        <!--  -->
+        <div class="board" id="kaligrafi">
+            <button id="back" onclick="back()">
+                <img src="/images/silang.png" alt="" width="40px" height="40px">
+            </button>
+            <div id="mascot2">bayangin aja ada maskotnya</div>
+            <section id="data">
+                <div class="juara satu">
+                    <img src="./images/juara1.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>MAN Insan Cendekia Serpong</p>
+                </div>
+                <div class="juara dua">
+                    <img src="./images/juara2.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>sekolah</p>
+                </div>
+                <div class="juara tiga">
+                    <img src="./images/juara3.png" alt="">
+                    <h3>#nama</h3>
+                    <p>sekolah</p>
+                </div>
+            </section>
+        </div>
+        <!--  -->
+        <div class="board" id="mhq">
+            <button id="back" onclick="back()">
+                <img src="/images/silang.png" alt="" width="40px" height="40px">
+            </button>
+            <div id="mascot2">bayangin aja ada maskotnya</div>
+            <section id="data">
+                <div class="juara satu">
+                    <img src="./images/juara1.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>MAN Insan Cendekia Serpong</p>
+                </div>
+                <div class="juara dua">
+                    <img src="./images/juara2.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>sekolah</p>
+                </div>
+                <div class="juara tiga">
+                    <img src="./images/juara3.png" alt="">
+                    <h3>#nama</h3>
+                    <p>sekolah</p>
+                </div>
+            </section>
+        </div>
+        <!--  -->
+        <div class="board" id="mtq">
+            <button id="back" onclick="back()">
+                <img src="/images/silang.png" alt="" width="40px" height="40px">
+            </button>
+            <div id="mascot2">bayangin aja ada maskotnya</div>
+            <section id="data">
+                <div class="juara satu">
+                    <img src="./images/juara1.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>MAN Insan Cendekia Serpong</p>
+                </div>
+                <div class="juara dua">
+                    <img src="./images/juara2.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>sekolah</p>
+                </div>
+                <div class="juara tiga">
+                    <img src="./images/juara3.png" alt="">
+                    <h3>#nama</h3>
+                    <p>sekolah</p>
+                </div>
+            </section>
+        </div>
+        <!--  -->
+        <div class="board" id="poster">
+            <button id="back" onclick="back()">
+                <img src="/images/silang.png" alt="" width="40px" height="40px">
+            </button>
+            <div id="mascot2">bayangin aja ada maskotnya</div>
+            <section id="data">
+                <div class="juara satu">
+                    <img src="./images/juara1.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>MAN Insan Cendekia Serpong</p>
+                </div>
+                <div class="juara dua">
+                    <img src="./images/juara2.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>sekolah</p>
+                </div>
+                <div class="juara tiga">
+                    <img src="./images/juara3.png" alt="">
+                    <h3>#nama</h3>
+                    <p>sekolah</p>
+                </div>
+            </section>
+        </div>
+        <!--  -->
+        <div class="board" id="puisi">
+            <button id="back" onclick="back()">
+                <img src="/images/silang.png" alt="" width="40px" height="40px">
+            </button>
+            <div id="mascot2">bayangin aja ada maskotnya</div>
+            <section id="data">
+                <div class="juara satu">
+                    <img src="./images/juara1.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>MAN Insan Cendekia Serpong</p>
+                </div>
+                <div class="juara dua">
+                    <img src="./images/juara2.png" alt="">
+                    <h3>Muhammad Fadil Saputra Wijaya hkjadhjkasdjkh</h3>
+                    <p>sekolah</p>
+                </div>
+                <div class="juara tiga">
+                    <img src="./images/juara3.png" alt="">
+                    <h3>#nama</h3>
+                    <p>sekolah</p>
+                </div>
+            </section>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 
