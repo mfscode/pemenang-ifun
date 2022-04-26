@@ -24,9 +24,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      showborder="false"
-     inkscape:zoom="0.21291386"
-     inkscape:cx="528.3827"
-     inkscape:cy="450.88657"
+     inkscape:zoom="0.42582772"
+     inkscape:cx="841.88977"
+     inkscape:cy="363.99697"
      inkscape:window-width="1920"
      inkscape:window-height="1051"
      inkscape:window-x="-9"
@@ -46,92 +46,85 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g14407"
-       transform="matrix(0.34198768,0,0,0.34198768,-33.149917,14.995774)"
-       style="stroke-width:2.92408"
+       id="g4725"
        inkscape:export-filename="C:\Users\Rudi Wijaya\Documents\Si-Paling-Coding\I-Fun\Pengumuman\images\juara1.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <path
          id="path13615"
-         style="fill:#5cb746;fill-opacity:1;stroke:none;stroke-width:2.92408px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 151.50195,-19.746094 c -33.70917,0 -41.14654,27.0554065 -27.45507,48.664063 L 475.47266,637.60547 491.37305,667.60742 867.26172,16.550781 c 10.24743,-17.7490104 4.80999,-36.296875 -22.85547,-36.296875 z M 264.3457,41.216797 H 729.5 c 18.57218,0 22.22298,12.450096 15.34375,24.365234 L 492.50586,502.64453 481.83008,482.50391 245.91406,73.884766 C 236.72281,59.378599 241.7163,41.216797 264.3457,41.216797 Z"
-         transform="scale(0.26458333)" />
+         style="fill:#956e39;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -43.82893,-0.92639664 c -3.050149,0 -3.723114,2.44808794 -2.484251,4.40333074 l 31.798494,55.0766259 1.438735,2.714704 34.012001,-58.9103655 c 0.927231,-1.60600571 0.435228,-3.28429514 -2.06806,-3.28429514 z M -33.618349,4.5897842 H 8.4707841 c 1.6804899,0 2.0108299,1.1265375 1.3883675,2.2046697 L -12.973451,46.341722 -13.93944,44.519313 -35.286122,7.5457206 c -0.831663,-1.3125795 -0.379831,-2.9559364 1.667773,-2.9559364 z" />
       <circle
-         style="opacity:1;fill:#e9cd25;fill-opacity:1;stroke-width:7.73663;stroke-linecap:round;stroke-linejoin:round"
+         style="fill:#e9a825;fill-opacity:1;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round"
          id="circle2380"
-         cx="132.34518"
-         cy="157.19875"
-         r="48.464436" />
+         cx="-12.277046"
+         cy="54.62035"
+         r="16.57424" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:86.7833px;line-height:1.25;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#b7ad46;fill-opacity:1;stroke-width:0.773663"
-         x="115.58858"
-         y="188.93996"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.6788px;line-height:1.25;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#826d31;fill-opacity:1;stroke-width:0.264583"
+         x="-18.007599"
+         y="65.475449"
          id="text6780"><tspan
            sodipodi:role="line"
            id="tspan6778"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:86.7833px;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#b7ad46;fill-opacity:1;stroke-width:0.773663"
-           x="115.58858"
-           y="188.93996">1</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.6788px;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#826d31;fill-opacity:1;stroke-width:0.264583"
+           x="-18.007599"
+           y="65.475449">1</tspan></text>
     </g>
     <g
-       id="g3387"
+       id="g4737"
        inkscape:export-filename="C:\Users\Rudi Wijaya\Documents\Si-Paling-Coding\I-Fun\Pengumuman\images\juara3.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="matrix(0.34198808,0,0,0.34198808,267.33912,22.328875)"
-       style="stroke-width:2.92408">
+       inkscape:export-ydpi="96">
       <path
          id="path14409"
-         style="fill:#5cb746;fill-opacity:1;stroke:none;stroke-width:0.773661px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 415.26406,33.933846 c -8.91888,0 -10.88669,7.158409 -7.26415,12.8757 l 92.9814,161.048564 4.20698,7.93802 99.45387,-172.258736 c 2.7113,-4.696093 1.27265,-9.603548 -6.04717,-9.603548 z m 29.85658,16.129764 h 123.07207 c 4.91389,0 5.87983,3.294088 4.0597,6.446635 L 505.48801,172.1497 502.66338,166.82082 440.24393,58.70701 c -2.43185,-3.83809 -1.11066,-8.6434 4.87671,-8.6434 z" />
+         style="fill:#956e39;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 409.35448,33.933846 c -3.05015,0 -3.72312,2.44809 -2.48425,4.403336 l 31.79853,55.076689 1.43873,2.714708 34.01204,-58.910434 c 0.92723,-1.606008 0.43523,-3.284299 -2.06806,-3.284299 z m 10.21059,5.516187 h 42.08918 c 1.6805,0 2.01084,1.126539 1.38837,2.204672 L 440.20999,81.20202 439.244,79.379607 417.8973,42.405973 c -0.83167,-1.312581 -0.37984,-2.95594 1.66777,-2.95594 z" />
       <circle
-         style="fill:#bd6600;fill-opacity:1;stroke-width:7.73661;stroke-linecap:round;stroke-linejoin:round"
+         style="fill:#bd4200;fill-opacity:1;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round"
          id="circle14411"
-         cx="507.52435"
-         cy="196.35709"
-         r="48.464436" />
+         cx="440.9064"
+         cy="89.480659"
+         r="16.574259" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:86.7833px;line-height:1.25;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e49705;fill-opacity:1;stroke-width:0.773661"
-         x="485.79706"
-         y="232.44766"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.6789px;line-height:1.25;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e46d05;fill-opacity:1;stroke-width:0.264583"
+         x="433.47592"
+         y="101.8232"
          id="text14415"><tspan
            sodipodi:role="line"
            id="tspan14413"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:86.7833px;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e49705;fill-opacity:1;stroke-width:0.773661"
-           x="485.79706"
-           y="232.44766">3</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.6789px;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e46d05;fill-opacity:1;stroke-width:0.264583"
+           x="433.47592"
+           y="101.8232">3</tspan></text>
     </g>
     <g
-       id="g3381"
+       id="g4731"
        inkscape:export-filename="C:\Users\Rudi Wijaya\Documents\Si-Paling-Coding\I-Fun\Pengumuman\images\juara2.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="matrix(0.34198808,0,0,0.34198808,68.615504,64.61799)"
-       style="stroke-width:2.92408">
+       inkscape:export-ydpi="96">
       <path
          id="path14419"
-         style="fill:#5cb746;fill-opacity:1;stroke:none;stroke-width:0.773661px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 185.02224,135.97253 c -8.91888,0 -10.88669,7.15841 -7.26415,12.8757 l 92.9814,161.04857 4.20698,7.93802 99.45387,-172.25874 c 2.7113,-4.69609 1.27265,-9.60355 -6.04717,-9.60355 z m 29.85658,16.12977 h 123.07207 c 4.91389,0 5.87983,3.29408 4.0597,6.44663 l -66.7644,115.63946 -2.82463,-5.32888 -62.41945,-108.11381 c -2.43185,-3.83809 -1.11066,-8.6434 4.87671,-8.6434 z" />
+         style="fill:#956e39;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 131.8909,111.11897 c -3.05015,0 -3.72311,2.4481 -2.48425,4.40334 l 31.79853,55.07669 1.43874,2.71471 34.01204,-58.91044 c 0.92723,-1.606 0.43523,-3.2843 -2.06806,-3.2843 z m 10.2106,5.51619 h 42.08918 c 1.68049,0 2.01083,1.12654 1.38837,2.20467 l -22.83263,39.54732 -0.96599,-1.82241 -21.34671,-36.97364 c -0.83166,-1.31258 -0.37983,-2.95594 1.66778,-2.95594 z" />
       <circle
-         style="fill:#928f7c;fill-opacity:1;stroke-width:7.73661;stroke-linecap:round;stroke-linejoin:round"
+         style="fill:#b79057;fill-opacity:1;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round"
          id="circle14421"
-         cx="277.28253"
-         cy="298.39575"
-         r="48.464436" />
+         cx="163.44283"
+         cy="166.66579"
+         r="16.574259" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:86.7833px;line-height:1.25;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c6c5c0;fill-opacity:1;stroke-width:0.773661"
-         x="254.9339"
-         y="331.37967"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.6789px;line-height:1.25;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d4b886;fill-opacity:1;stroke-width:0.264583"
+         x="155.79987"
+         y="177.94589"
          id="text14425"><tspan
            sodipodi:role="line"
            id="tspan14423"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:86.7833px;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c6c5c0;fill-opacity:1;stroke-width:0.773661"
-           x="254.9339"
-           y="331.37967">2</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.6789px;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d4b886;fill-opacity:1;stroke-width:0.264583"
+           x="155.79987"
+           y="177.94589">2</tspan></text>
     </g>
     <text
        xml:space="preserve"

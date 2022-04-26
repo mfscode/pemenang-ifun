@@ -37,7 +37,7 @@ h1 {
 
 @media (max-width:900px) {
     h1 {
-        font-size: 6vw;
+        font-size: 5vw;
     }
 }
 
@@ -77,18 +77,36 @@ h1 {
 }
 
 div#mascot {
-    width: 5rem;
-    height: 8rem;
+    width: 8rem;
+    height: 11rem;
     margin: 30vh auto 0;
+    border-radius: 8px;
     /*  */
     background-color: #00000014;
+    background-image: url(./images/logo.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     /*  */
     transition: 300ms;
+    z-index: 9;
+    /*  */
+    position: relative;
+}
+
+div#mascot::before {
+    content: '↓ Klik disini ↓';
+    position: absolute;
+    left: 10%;
+    top: -34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 div#mascot:hover {
     background-color: #0000007b;
     cursor: pointer;
+    transform: translateY(-10px);
 }
 
 #page2 {
@@ -491,26 +509,30 @@ div#mascot:hover {
 }
 
 div#mascot2 {
-    width: 500px;
     min-height: 600px;
-    margin: 0 auto;
+    margin: 0 3rem;
     /*  */
     background-color: aquamarine;
     /*  */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 0 2 500px;
 }
 
 section#data {
-    width: 40%;
-    min-height: 90vh;
+    min-height: 600px;
+    max-height: 80vw;
     background-color: bisque;
+    padding: 1.5rem;
     /*  */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
+    align-content: center;
+    /*  */
+    flex: 0 1 45vw;
     /*  */
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -523,13 +545,66 @@ section#data p {
 }
 
 section#data img {
-    width: 212px;
-    height: 212px;
+    width: 15vw;
+    height: 15vw;
     margin-bottom: 1rem;
+}
+
+@media (max-width:940px) {
+    section#data {
+        flex: 0 1 60vw;
+    }
+    section#data img {
+        width: 17vw;
+        height: 17vw;
+    }
+}
+
+@media (max-width:902px) {
+    div#mascot2 {
+        display: none;
+    }
+    .board#akustik.displayed,
+    .board#cci.displayed,
+    .board#cipcer.displayed,
+    .board#dai.displayed,
+    .board#fashion.displayed,
+    .board#kaligrafi.displayed,
+    .board#mhq.displayed,
+    .board#mtq.displayed,
+    .board#poster.displayed,
+    .board#puisi.displayed {
+        justify-content: center;
+    }
+}
+
+@media (max-width:750px) {
+    section#data img {
+        width: 22vw;
+        height: 22vw;
+    }
 }
 
 .juara {
     flex: 1 0 50%;
+    margin-bottom: 2rem;
+}
+
+@media (max-width:500px) {
+    section#data img {
+        width: 18vw;
+        height: 18vw;
+    }
+    .juara {
+        flex: 1 0 51%;
+    }
+}
+
+@media (max-width:380px) {
+    section#data img {
+        width: 24vw;
+        height: 24vw;
+    }
 }
 
 button#back {
