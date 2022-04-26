@@ -136,9 +136,9 @@ div#mascot:hover {
 
 @media (max-width:900px) {
     #cabang {
-        height: 50vw;
+        min-height: 60vh;
         margin: 10vh auto 0;
-        width: 41%;
+        width: 50%;
     }
 }
 
@@ -157,6 +157,7 @@ div#mascot:hover {
     margin: .5rem;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     transition: 100ms;
     position: relative;
     /*  */
@@ -174,13 +175,14 @@ div#mascot:hover {
 @media (max-width:900px) {
     .cards {
         width: calc(35% - 25px);
+        height: 12vh;
     }
 }
 
 @media (max-width:700px) {
     .cards {
-        width: calc(25% - 25px);
-        height: 15vw;
+        width: calc(35% - 25px);
+        height: 12vh;
     }
     .cards::after {
         font-size: 1.5vw;
@@ -554,8 +556,8 @@ button#back {
         width: 80%;
     }
     .cards {
-        width: calc(25% - 25px);
-        height: 20vw;
+        width: calc(34% - 25px);
+        height: 12vh;
     }
     .cards::after {
         font-size: 2vw;
