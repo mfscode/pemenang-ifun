@@ -501,7 +501,7 @@ div#mascot:hover {
 .board#puisi.displayed {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     /*  */
     opacity: 1;
@@ -512,7 +512,7 @@ div#mascot2 {
     min-height: 600px;
     margin: 0 3rem;
     /*  */
-    background-color: aquamarine;
+    background-color: transparent;
     /*  */
     display: flex;
     justify-content: center;
@@ -523,7 +523,7 @@ div#mascot2 {
 section#data {
     min-height: 600px;
     max-height: 80vw;
-    background-color: bisque;
+    background-color: rgba(229, 229, 229, 0.9);
     padding: 1.5rem;
     /*  */
     display: flex;
@@ -545,8 +545,14 @@ section#data p {
 }
 
 section#data img {
+    width: 12vw;
+    height: 12vw;
+    margin-bottom: 1rem;
+}
+
+section#data div.favorite img {
     width: 15vw;
-    height: 15vw;
+    height: 8vw;
     margin-bottom: 1rem;
 }
 
@@ -557,6 +563,18 @@ section#data img {
     section#data img {
         width: 17vw;
         height: 17vw;
+    }
+    section#data div.favorite img {
+        width: 16vw;
+        height: 9vw;
+    }
+    div#fashion section#data,
+    div#poster section#data {
+        flex: 0 1 82vw;
+    }
+    div#fashion .juara,
+    div#poster .juara {
+        flex: 1 0 50%;
     }
 }
 
@@ -580,8 +598,24 @@ section#data img {
 
 @media (max-width:750px) {
     section#data img {
-        width: 22vw;
-        height: 22vw;
+        width: 21vw;
+        height: 21vw;
+    }
+    section#data p {
+        font-size: .8rem;
+    }
+    section#data div.favorite img {
+        width: 20vw;
+        height: 11vw;
+    }
+    section#data div.favorite p {
+        font-size: .9rem;
+    }
+    #poster section#data div.favorite p {
+        font-size: .7rem;
+    }
+    #poster section#data div.favorite h3 {
+        font-size: .9rem;
     }
 }
 
@@ -592,11 +626,23 @@ section#data img {
 
 @media (max-width:500px) {
     section#data img {
-        width: 18vw;
-        height: 18vw;
+        width: 14vw;
+        height: 14vw;
     }
     .juara {
         flex: 1 0 51%;
+    }
+    section#data p {
+        font-size: .7rem;
+    }
+    #fashion #data img,
+    #poster #data img {
+        width: 19vw;
+        height: 19vw;
+    }
+    #data #favorite img {
+        width: 20vw;
+        height: 11vw;
     }
 }
 

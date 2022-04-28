@@ -32,7 +32,9 @@ function loaded() {
 
 function clicked() {
     page2.classList.toggle('clicked');
-    backButton.style.opacity = "1"
+    backButton.style.opacity = "1";
+    // document.getElementById("body").style.minHeight = "110vh";
+    // document.getElementById("body").style.overflowY = "scroll"
 }
 
 function back() {
