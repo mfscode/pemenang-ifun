@@ -539,7 +539,7 @@ section#data {
 }
 
 section#data p {
-    margin-top: .7rem;
+    margin-top: .4rem;
     /*  */
     font-size: .9rem;
 }
@@ -604,6 +604,9 @@ section#data div.favorite img {
     section#data p {
         font-size: .8rem;
     }
+    section#data h3 {
+        font-size: .9rem;
+    }
     section#data div.favorite img {
         width: 20vw;
         height: 11vw;
@@ -625,6 +628,9 @@ section#data div.favorite img {
 }
 
 @media (max-width:500px) {
+    section#data {
+        align-content: stretch;
+    }
     section#data img {
         width: 14vw;
         height: 14vw;
@@ -648,8 +654,8 @@ section#data div.favorite img {
 
 @media (max-width:380px) {
     section#data img {
-        width: 24vw;
-        height: 24vw;
+        width: 17vw;
+        height: 17vw;
     }
 }
 
